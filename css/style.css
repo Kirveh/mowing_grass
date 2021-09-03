@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.head{
+    text-transform: uppercase;
+    padding-left: 20px;
+    border-left: 6px solid #219653;
+}
+.head__text{
+    font-size: 16px;
+}
+
+
+/* /.header */
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    border-right: 0.5px solid #E3E3E3;
+}
+.logo__text{
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 830px;
+    align-items: center;
+}
+.views{
+    display: flex;
+    border: none;
+    background-color: #ffffff;
+    align-items: center;
+    color: #28A53C;
+}
+.phone{
+    display: flex;
+}
+.phone__link{
+    color: #28A53C;
+}
+
+/* /.about */
+
+/* /.clients */
+.clients__list{
+    display: flex;
+}
+
+/* /.values */
+
+/* causes */
+
+/* /.examples */
+
+/* /.footer */
+footer{
+    background: #26292B;
+}
